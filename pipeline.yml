@@ -16,7 +16,7 @@ stages:
   triggers:
   - type: stage
   jobs:
-  - name: Deploy to dev
+  - name: Deploy to Filip
     type: deployer
     target:
       url: ${CF_TARGET_URL}
