@@ -25,6 +25,7 @@ stages:
       application: ${CF_APP}
     script: |-
       #!/bin/bash
+      sleep 2m
       cf push "${CF_APP}"
       # View logs
       #cf logs "${CF_APP}" --recent
