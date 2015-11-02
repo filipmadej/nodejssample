@@ -9,12 +9,12 @@ stages:
 #   - name: Build
 #     type: builder
 - name: Deploy Stage Filip
-  inputs:
-  - type: job
-    stage: Build Stage
-    job: Build
-  triggers:
-  - type: stage
+  # inputs:
+  # - type: job
+  #   stage: Build Stage
+  #   job: Build
+  # triggers:
+  # - type: stage
   jobs:
   - name: Deploy to Filip
     type: deployer
