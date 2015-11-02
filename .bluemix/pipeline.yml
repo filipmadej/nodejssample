@@ -1,4 +1,4 @@
-# stages:
+stages:
 # - name: Build Stage
 #   inputs:
 #   - type: git
