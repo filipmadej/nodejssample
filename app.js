@@ -1,4 +1,5 @@
 /*global process require*/
+/*stable content*/
 
 var port = (process.env.VCAP_APP_PORT || 3000);
 var http = require('http');
