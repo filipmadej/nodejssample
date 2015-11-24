@@ -8,7 +8,7 @@ stages:
   jobs:
   - name: Build
     type: builder
-- name: Deploy Stage Filip
+- name: Deploy not Stable 
   inputs:
   - type: job
     stage: Build Stage
