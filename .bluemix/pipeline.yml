@@ -11,7 +11,7 @@ stages:
 - name: Deploy Stage Filip not Stable
   inputs:
   - type: job
-    stage: Build Stage
+    stage: Build Stage not Stable
     job: Build
   triggers:
   - type: stage
