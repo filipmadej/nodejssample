@@ -1,5 +1,5 @@
 stages:
-- name: Build Stage
+- name: Build Stage Stable
   inputs:
   - type: git
     branch: stable
@@ -8,7 +8,7 @@ stages:
   jobs:
   - name: Build
     type: builder
-- name: Deploy Stage Filip
+- name: Deploy Stage Filip Stable
   inputs:
   - type: job
     stage: Build Stage
