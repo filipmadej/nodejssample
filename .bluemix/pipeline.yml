@@ -2,7 +2,7 @@ stages:
 - name: Build Stage not Stable
   inputs:
   - type: git
-    branch: master
+    branch: notStable
   triggers:
   - type: commit
   jobs:
