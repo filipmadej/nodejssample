@@ -3,5 +3,6 @@ applications:
 - name: NodeHelloWorldStable
   memory: 128M
   instances: 1
+  host: nodejsample
   path: .
   command: node app.js
